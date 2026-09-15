@@ -1,0 +1,36 @@
+{
+  "exercise": "53-event-upcasting",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "v1 recebe default"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "v2 preserva moeda"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "v3 não muda"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "texto Unicode preserva"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "default é determinístico"
+    }
+  ],
+  "staticChecks": []
+}

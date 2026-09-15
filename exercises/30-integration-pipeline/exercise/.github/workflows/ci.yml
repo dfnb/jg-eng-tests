@@ -1,0 +1,10 @@
+name: ci
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: dotnet build api/App.csproj || true
+      - run: echo ${{ secrets.DEPLOY_TOKEN }}

@@ -1,0 +1,36 @@
+{
+  "exercise": "83-infinite-scroll-dedup",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "páginas distintas concatenam"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "duplicata atualiza"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "página vazia"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "primeira vazia"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "várias duplicatas não repetem"
+    }
+  ],
+  "staticChecks": []
+}

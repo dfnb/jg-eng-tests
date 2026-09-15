@@ -1,0 +1,36 @@
+{
+  "exercise": "13-monetary-totals",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "cada linha é arredondada antes da soma"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "cálculo não perde precisão decimal"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "imposto usa a soma líquida"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "estorno é simétrico"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "meio centavo usa AwayFromZero"
+    }
+  ],
+  "staticChecks": []
+}

@@ -1,0 +1,41 @@
+{
+  "exercise": "25-webhook-receiver",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "assinatura sobre corpo bruto é aceita"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "assinatura inválida é rejeitada"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "evento repetido não duplica efeito"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "JSON inválido assinado é rejeitado com segurança"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "comparação usa tempo constante"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C05",
+      "require": "FixedTimeEquals"
+    }
+  ]
+}

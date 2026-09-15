@@ -1,0 +1,36 @@
+{
+  "exercise": "70-plural-rules",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "pt singular"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "pt plural"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "pt zero plural"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "en singular"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "en plural"
+    }
+  ],
+  "staticChecks": []
+}

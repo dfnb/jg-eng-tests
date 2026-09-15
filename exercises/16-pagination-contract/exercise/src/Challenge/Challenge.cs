@@ -1,0 +1,1 @@
+namespace Challenge;public record Item(string Id,DateTimeOffset CreatedAt);public static class Paginator{public static IReadOnlyList<Item> Page(IEnumerable<Item> items,DateTimeOffset? after,string? afterId,int take)=>items.Where(x=>after is null||x.CreatedAt<after).OrderByDescending(x=>x.CreatedAt).Take(take).ToList();}

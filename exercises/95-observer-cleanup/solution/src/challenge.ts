@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const active=input.split(",").filter(Boolean);const left=active.filter(x=>!x.startsWith("cleanup:"));const cleaned=new Set(active.filter(x=>x.startsWith("cleanup:")).map(x=>x.slice(8)));return left.filter(x=>!cleaned.has(x)).sort().join(",")||"clean" }

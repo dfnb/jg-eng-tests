@@ -1,0 +1,36 @@
+{
+  "exercise": "61-ordered-events",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "próxima versão aplica"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "mesma versão duplica"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "versão antiga duplica"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "salto detecta gap"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "primeiro evento aplica"
+    }
+  ],
+  "staticChecks": []
+}

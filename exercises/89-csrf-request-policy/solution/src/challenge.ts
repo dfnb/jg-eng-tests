@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[method,origin,target,token]=input.split("|");const mut=!['GET','HEAD','OPTIONS'].includes(method);return mut&&origin===target&&token?`token:${token}`:"none" }

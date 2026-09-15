@@ -1,0 +1,36 @@
+{
+  "exercise": "27-url-shortener",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "criar e resolver preserva URL"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "somente HTTP/HTTPS absoluto é aceito"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "colisão não sobrescreve link"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "duas instâncias geram códigos únicos"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "código ausente retorna null"
+    }
+  ],
+  "staticChecks": []
+}

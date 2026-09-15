@@ -1,0 +1,41 @@
+{
+  "exercise": "19-thread-starvation",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "caminho não bloqueia Task sincronamente"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "resultados preservam a ordem"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "concorrência respeita o limite"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "cancelamento chega ao provedor"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "lista vazia retorna imediatamente"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C01",
+      "forbid": "\\.Result\\b|\\.Wait\\s*\\(|GetAwaiter\\(\\)\\.GetResult"
+    }
+  ]
+}

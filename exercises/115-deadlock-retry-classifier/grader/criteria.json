@@ -1,0 +1,36 @@
+{
+  "exercise": "115-deadlock-retry-classifier",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "deadlock repete"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "última tentativa esgota"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "unique não repete"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "timeout não é assumido"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "zero tentativas ainda repete"
+    }
+  ],
+  "staticChecks": []
+}

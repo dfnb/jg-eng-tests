@@ -1,0 +1,1 @@
+export type Row={id:string,name:string,value:number};export function visibleRows(rows:Row[],filter:string,start:number,size:number,format:(x:Row)=>Row){return rows.sort((a,b)=>a.name.localeCompare(b.name)).map(format).filter(x=>x.name.includes(filter))}

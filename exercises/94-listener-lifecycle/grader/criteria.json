@@ -1,0 +1,36 @@
+{
+  "exercise": "94-listener-lifecycle",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "monta/desmonta limpa"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "montagem sem cleanup vaza"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "duas instâncias limpas"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "cleanup extra inválido"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "uma sobra detecta"
+    }
+  ],
+  "staticChecks": []
+}

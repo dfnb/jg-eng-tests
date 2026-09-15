@@ -1,0 +1,36 @@
+{
+  "exercise": "58-circuit-half-open",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "limiar abre"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "timeout permite sonda"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "sonda boa fecha"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "sonda ruim reabre"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "request enquanto aberto rejeita"
+    }
+  ],
+  "staticChecks": []
+}

@@ -1,0 +1,1 @@
+namespace Challenge;public sealed class CouponStore{public HashSet<string> Valid=new();public HashSet<string> Used=new();public List<string> Audit=new();}public sealed class CouponService(CouponStore store){public bool Redeem(string code){if(!store.Valid.Contains(code)||store.Used.Contains(code))return false;Thread.Yield();store.Used.Add(code);store.Audit.Add(code);return true;}}

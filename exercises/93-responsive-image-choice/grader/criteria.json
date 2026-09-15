@@ -1,0 +1,36 @@
+{
+  "exercise": "93-responsive-image-choice",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "viewport simples"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "DPR dois dobra alvo"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "menor suficiente"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "alvo maior usa máximo"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "entrada desordenada funciona"
+    }
+  ],
+  "staticChecks": []
+}

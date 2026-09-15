@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[items,id,key]=input.split("|");const a=items.split(","),i=a.indexOf(id),j=key==="up"?Math.max(0,i-1):Math.min(a.length-1,i+1);if(i<0)return items;[a[i],a[j]]=[a[j],a[i]];return a.join(",") }

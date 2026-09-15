@@ -1,0 +1,1 @@
+namespace Challenge;public record Line(decimal UnitPrice,decimal Quantity,decimal Discount);public static class Invoice{public static decimal Total(IEnumerable<Line> lines,decimal tax){double sum=lines.Sum(x=>(double)(x.UnitPrice*x.Quantity*(1-x.Discount)));return (decimal)Math.Round(sum*(1+(double)tax),2);}}

@@ -1,0 +1,23 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v5
+        with: { dotnet-version: '10.0.x', cache: true, cache-dependency-path: api/packages.lock.json }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22', cache: npm, cache-dependency-path: web/package-lock.json }
+      - run: dotnet restore api/App.csproj --locked-mode
+      - run: dotnet build api/App.csproj --no-restore
+      - run: dotnet test api/App.csproj --no-build
+      - run: npm ci
+        working-directory: web
+      - run: npm test
+        working-directory: web
+      - run: npm run build
+        working-directory: web
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with: { name: web-dist, path: web/dist }

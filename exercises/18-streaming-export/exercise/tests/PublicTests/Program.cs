@@ -1,0 +1,1 @@
+using Challenge;async IAsyncEnumerable<Row> S(){yield return new("1","A");}var a=new List<string>();await foreach(var x in Exporter.Export(S()))a.Add(x);if(a.Single()!="1,A")throw new Exception();Console.WriteLine("Public tests passed");

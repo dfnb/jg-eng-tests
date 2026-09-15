@@ -1,0 +1,17 @@
+{
+  "name": "124-normalized-entity-cache",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/public.test.ts",
+    "lint": "node scripts/check-source.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

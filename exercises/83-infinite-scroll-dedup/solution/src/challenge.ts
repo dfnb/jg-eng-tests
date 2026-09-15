@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[a,b]=input.split("|").map(x=>x?x.split(","):[]);const map=new Map();for(const x of [...a,...b])map.set(x.split(":")[0],x);const order=[...new Set([...a,...b].map(x=>x.split(":")[0]))];return order.map(id=>map.get(id)).join(",") }

@@ -1,0 +1,36 @@
+{
+  "exercise": "121-reduced-motion-policy",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "reduce remove transição"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "reduce mantém progresso estático"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "normal anima modal"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "normal anima progresso"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "efeito desconhecido respeita reduce"
+    }
+  ],
+  "staticChecks": []
+}

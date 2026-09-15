@@ -1,0 +1,36 @@
+{
+  "exercise": "35-idempotent-post",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "chave nova cria"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "mesmo hash reproduz"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "hash diferente conflita"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "payload vazio ainda tem hash"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "comparação é exata"
+    }
+  ],
+  "staticChecks": []
+}

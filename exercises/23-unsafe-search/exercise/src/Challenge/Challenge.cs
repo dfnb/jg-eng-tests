@@ -1,0 +1,1 @@
+namespace Challenge;public record Query(string Sql,IReadOnlyDictionary<string,object> Parameters);public static class SearchQuery{public static Query Build(string filter,string sort,string direction)=>new($"SELECT id,name FROM products WHERE name ILIKE '%{filter}%' ORDER BY {sort} {direction}",new Dictionary<string,object>()); }

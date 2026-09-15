@@ -1,0 +1,36 @@
+{
+  "exercise": "103-regional-config-precedence",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "tenant vence"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "regional cobre tenant vazio"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "global é fallback"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "espaço não sobrescreve"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "tudo ausente é unset"
+    }
+  ],
+  "staticChecks": []
+}

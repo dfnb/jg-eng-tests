@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const p=new URLSearchParams(input);const q=p.get("q")?.trim()??"";const page=Math.max(1,Number(p.get("page")||1));return`q=${encodeURIComponent(q)}&page=${page}` }

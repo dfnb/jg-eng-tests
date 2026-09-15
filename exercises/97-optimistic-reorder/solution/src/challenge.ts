@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[server,id,before]=input.split("|");const a=server.split(",").filter(x=>x!==id);const j=before==="end"?a.length:Math.max(0,a.indexOf(before));a.splice(j,0,id);return a.join(",") }

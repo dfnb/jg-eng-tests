@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[locale,raw]=input.split("|");const text=raw.trim();const normalized=locale==="pt-BR"?text.replaceAll(".","").replace(",","."):text.replaceAll(",","");const n=Number(normalized);return Number.isFinite(n)?n.toFixed(2):"invalid" }

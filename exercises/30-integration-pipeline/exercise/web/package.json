@@ -1,0 +1,1 @@
+{"name":"web","private":true,"scripts":{"test":"node --test","build":"mkdir -p dist && cp src/index.js dist/"}}

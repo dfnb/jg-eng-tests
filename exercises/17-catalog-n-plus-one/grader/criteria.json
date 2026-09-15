@@ -1,0 +1,36 @@
+{
+  "exercise": "17-catalog-n-plus-one",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "valores retornados estão corretos"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "no máximo duas consultas são executadas"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "paginação limita os produtos"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "produto sem estoque retorna zero"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "chamada seguinte observa atualização do repositório"
+    }
+  ],
+  "staticChecks": []
+}

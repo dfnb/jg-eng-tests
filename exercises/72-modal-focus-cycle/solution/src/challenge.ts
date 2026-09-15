@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[i,count,key]=input.split("|").map((x,j)=>j<2?Number(x):x);if(count===0)return"container";if(key==="Escape")return"restore";if(key==="ShiftTab")return String((i-1+count)%count);return String((i+1)%count) }

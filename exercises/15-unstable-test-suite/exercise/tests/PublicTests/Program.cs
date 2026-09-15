@@ -1,0 +1,1 @@
+using Challenge;var t=new TokenService(new C(),new N()).Create("u",TimeSpan.FromMinutes(1));if(t.User!="u")throw new Exception();Console.WriteLine("Public tests passed");class C:IClock{public DateTimeOffset UtcNow=>DateTimeOffset.UnixEpoch;}class N:INonceSource{public string Next()=>"n";}

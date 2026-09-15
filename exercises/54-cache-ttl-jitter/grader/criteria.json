@@ -1,0 +1,36 @@
+{
+  "exercise": "54-cache-ttl-jitter",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "mesma chave é estável"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "outra chave varia"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "jitter fica pequeno"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "base é respeitada"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "Unicode é determinístico"
+    }
+  ],
+  "staticChecks": []
+}

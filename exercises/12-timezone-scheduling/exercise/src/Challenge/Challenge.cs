@@ -1,0 +1,1 @@
+namespace Challenge;public static class Scheduling{public static DateOnly LocalDate(DateTimeOffset instant,TimeZoneInfo zone)=>DateOnly.FromDateTime(instant.Date);public static (DateTimeOffset Start,DateTimeOffset End) UtcDay(DateOnly day,TimeZoneInfo zone){var s=new DateTimeOffset(day.ToDateTime(TimeOnly.MinValue),TimeSpan.Zero);return(s,s.AddDays(1));}}

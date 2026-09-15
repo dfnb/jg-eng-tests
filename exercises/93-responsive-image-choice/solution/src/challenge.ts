@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[viewport,dpr,widths]=input.split("|");const need=Number(viewport)*Number(dpr),a=widths.split(",").map(Number).sort((x,y)=>x-y);return String(a.find(x=>x>=need)??a.at(-1)) }

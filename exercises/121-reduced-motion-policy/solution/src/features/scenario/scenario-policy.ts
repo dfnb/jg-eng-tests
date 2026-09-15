@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[preference,effect]=input.split("|");if(preference==="reduce")return effect==="progress"?"static-progress":"instant";return effect==="progress"?"animated-progress":"animate" }

@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const cmds=input.split(",").filter(Boolean),m=new Map();for(const c of cmds){const[type,id]=c.split(":");if(type==="delete")m.set(id,c);else if(!m.get(id)?.startsWith("delete"))m.set(id,c)}return[...m.values()].join(",") }

@@ -1,0 +1,1 @@
+import test from"node:test";import assert from"node:assert/strict";import{OptimisticStore}from"../src/challenge.ts";test("success",async()=>{const s=new OptimisticStore([{id:"1",title:"a",version:1}]);await s.edit("1","b",async x=>({...x,version:2}));assert.equal(s.items.get("1").title,"b")});

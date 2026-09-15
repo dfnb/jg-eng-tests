@@ -1,0 +1,49 @@
+{
+  "exercise": "07-accessible-checkout",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "campos vazios ou só com espaços são rejeitados"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "payload normalizado inclui pagamento"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "controles possuem labels associados"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "status é anunciado e submit é bloqueado durante envio"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "CSS inclui adaptação móvel"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C03",
+      "require": "<label[^>]+htmlFor="
+    },
+    {
+      "id": "C04",
+      "require": "(?s)(?=.*aria-live)(?=.*disabled=)"
+    },
+    {
+      "id": "C05",
+      "require": "@media"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[page0,sections]=input.split("|");const values=sections.split(",").filter(Boolean).map(Number);if(values.some(x=>x>Number(page0)))return"oversize";return String(Math.max(1,Math.ceil(values.reduce((a,b)=>a+b,0)/Number(page0)))) }

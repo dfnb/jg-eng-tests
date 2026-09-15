@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[q,active,...opts]=input.split("|");const list=opts.filter(x=>x.toLowerCase().includes(q.toLowerCase()));const next=list.includes(active)?active:(list[0]??"none");return`${next}:${list.join(",")}` }

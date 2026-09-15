@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const values=input.split(",").filter(Boolean).map(Number);if(!values.length)return"empty";const trend=values.at(-1)>values[0]?"up":values.at(-1)<values[0]?"down":"flat";return`${trend}|min=${values[0]}|max=${values.at(-1)}` }

@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[offset,viewport,overscan,heights]=input.split("|");const hs=heights.split(",").map(Number);let y=0,s=0;while(s<hs.length&&y+hs[s]<=Number(offset)){y+=hs[s++]};let e=s,h=y;while(e<hs.length&&h<Number(offset)+Number(viewport)){h+=hs[e++]};return`${Math.max(0,s-Number(overscan))}-${Math.min(hs.length,e+Number(overscan))}` }

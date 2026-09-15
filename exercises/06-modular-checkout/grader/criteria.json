@@ -1,0 +1,36 @@
+{
+  "exercise": "06-modular-checkout",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "pedido válido é reservado, cobrado e confirmado"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "falha de pagamento não confirma"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "falha de pagamento libera estoque"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "carrinho vazio não chama gateways"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "dependências são substituíveis por interfaces"
+    }
+  ],
+  "staticChecks": []
+}

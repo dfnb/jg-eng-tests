@@ -1,0 +1,41 @@
+{
+  "exercise": "08-out-of-order-search",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "só a busca mais recente publica"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "termo vazio limpa sem chamar API"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "dispose impede publicação tardia"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "erro obsoleto não apaga resultado novo"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "componente limpa controller ao desmontar"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C05",
+      "require": "dispose\\(\\)"
+    }
+  ]
+}

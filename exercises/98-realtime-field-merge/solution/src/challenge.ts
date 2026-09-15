@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[base,local,remote]=input.split("|");if(local===base)return`remote:${remote}`;if(remote===base)return`local:${local}`;if(local===remote)return`merged:${local}`;return`conflict:${local}:${remote}` }

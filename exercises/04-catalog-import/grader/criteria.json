@@ -1,0 +1,36 @@
+{
+  "exercise": "04-catalog-import",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "CSV válido é convertido"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "campos com vírgula e aspas são lidos"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "SKU duplicado aponta a linha"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "erro torna o lote atômico"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "preço usa cultura invariável"
+    }
+  ],
+  "staticChecks": []
+}

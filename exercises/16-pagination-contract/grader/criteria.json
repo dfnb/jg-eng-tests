@@ -1,0 +1,36 @@
+{
+  "exercise": "16-pagination-contract",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "itens aparecem uma única vez entre páginas"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "empates usam ID ascendente"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "cursor é exclusivo"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "entrada desordenada gera saída estável"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "take inválido é rejeitado"
+    }
+  ],
+  "staticChecks": []
+}

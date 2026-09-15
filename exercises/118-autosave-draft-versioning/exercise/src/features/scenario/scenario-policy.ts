@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[current,response,status]=input.split("|").map((x,i)=>i<2?Number(x):x);if(status==="conflict")return"resolve";if(status==="network")return"retry";return response<=current?"apply":"ignore" }

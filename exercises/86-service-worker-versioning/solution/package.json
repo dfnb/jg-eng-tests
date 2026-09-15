@@ -1,0 +1,17 @@
+{
+  "name": "86-service-worker-versioning",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/public.test.ts",
+    "lint": "node --check src/challenge.ts"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

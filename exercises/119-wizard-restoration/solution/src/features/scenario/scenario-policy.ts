@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[saved0,valid]=input.split("|");const saved=Math.max(0,Number(saved0));const flags=valid.split(",").map(x=>x==="yes");let firstInvalid=flags.findIndex(x=>!x);if(firstInvalid<0)firstInvalid=flags.length;return String(Math.min(saved,firstInvalid)) }

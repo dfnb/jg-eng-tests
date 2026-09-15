@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[secure,api,permission]=input.split("|");if(api==="yes")return"clipboard-api";return permission==="denied"?"manual":"selection-fallback" }

@@ -1,0 +1,36 @@
+{
+  "exercise": "128-clipboard-fallback",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "API moderna em contexto seguro"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "contexto inseguro usa fallback"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "API ausente usa fallback"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "permissão negada orienta manual"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "prompt ainda tenta API"
+    }
+  ],
+  "staticChecks": []
+}

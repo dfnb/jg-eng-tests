@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[permissions,routes]=input.split("|");const set=new Set(permissions.split(",").filter(Boolean));return routes.split(",").filter(Boolean).filter(x=>{const[r,p]=x.split("=");return !p||set.has(p)}).map(x=>x.split("=")[0]).join(",") }

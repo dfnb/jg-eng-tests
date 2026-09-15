@@ -1,0 +1,41 @@
+{
+  "exercise": "15-unstable-test-suite",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "expiração usa o relógio injetado"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "nonce usa a fonte injetada"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "mesmas dependências geram resultado reproduzível"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "instâncias não compartilham estado"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "código não usa relógio ou Random globais"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C05",
+      "forbid": "DateTime(Offset)?\\.UtcNow|Random\\.Shared"
+    }
+  ]
+}

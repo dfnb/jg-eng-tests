@@ -1,0 +1,41 @@
+{
+  "exercise": "09-slow-dashboard",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "janela contém somente size linhas"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "filtro e ordenação são corretos"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "entrada não é mutada"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "formatador roda apenas na janela"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "trackBy usa ID"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C05",
+      "require": "trackById"
+    }
+  ]
+}

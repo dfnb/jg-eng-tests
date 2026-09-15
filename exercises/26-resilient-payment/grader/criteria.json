@@ -1,0 +1,36 @@
+{
+  "exercise": "26-resilient-payment",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "somente transientes são repetidas"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "tentativas preservam chave idempotente"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "máximo de três tentativas"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "cancelamento interrompe tentativas"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "breaker evita chamadas após limiar"
+    }
+  ],
+  "staticChecks": []
+}

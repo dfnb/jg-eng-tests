@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[sent,total,state]=input.split("|");if(state==="cancelled")return"cancelled";if(Number(total)<=0)return"indeterminate";return String(Math.min(100,Math.max(0,Math.round(Number(sent)*100/Number(total))))) }

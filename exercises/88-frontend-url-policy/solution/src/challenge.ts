@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { try{if(input.startsWith("/")&&!input.startsWith("//"))return input;const u=new URL(input);return["http:","https:","mailto:"].includes(u.protocol)?input:"#"}catch{return"#"} }

@@ -1,0 +1,1 @@
+import React,{useEffect,useRef}from"react";import{SearchController}from"./challenge";export function Search(){const c=useRef(new SearchController(()=>{}));useEffect(()=>()=>c.current.dispose(),[]);return <label>Search<input type="search"/></label>}

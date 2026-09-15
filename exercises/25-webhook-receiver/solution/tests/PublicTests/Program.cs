@@ -1,0 +1,1 @@
+using Challenge;using System.Security.Cryptography;using System.Text;var secret="s"u8.ToArray();var q=(char)34;var raw=Encoding.UTF8.GetBytes($"{{{q}id{q}:{q}1{q}}}");var sig=Convert.ToHexString(HMACSHA256.HashData(secret,raw)).ToLowerInvariant();if(!new Receiver(secret,new()).Handle(raw,sig))throw new Exception();Console.WriteLine("Public tests passed");

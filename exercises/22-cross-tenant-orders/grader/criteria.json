@@ -1,0 +1,36 @@
+{
+  "exercise": "22-cross-tenant-orders",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "leitura cruzada é negada"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "alteração e cancelamento cruzados são negados"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "proprietário mantém acesso"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "recurso alheio não revela existência"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "política é aplicada aos três métodos"
+    }
+  ],
+  "staticChecks": []
+}

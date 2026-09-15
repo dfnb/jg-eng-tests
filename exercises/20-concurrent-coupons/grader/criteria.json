@@ -1,0 +1,36 @@
+{
+  "exercise": "20-concurrent-coupons",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "primeiro resgate vence"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "somente um resgate concorrente vence"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "auditoria contém um evento"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "duas instâncias mantêm a garantia"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "cupom inexistente não altera estado"
+    }
+  ],
+  "staticChecks": []
+}

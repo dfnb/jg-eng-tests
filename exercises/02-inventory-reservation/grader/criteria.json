@@ -1,0 +1,36 @@
+{
+  "exercise": "02-inventory-reservation",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "primeiro cancelamento devolve saldo"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "cancelamento repetido não duplica saldo"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "reserva ativa reduz saldo"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "estoque insuficiente não cria reserva"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "cancelamentos concorrentes devolvem uma vez"
+    }
+  ],
+  "staticChecks": []
+}

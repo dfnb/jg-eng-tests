@@ -1,0 +1,36 @@
+{
+  "exercise": "21-idempotent-consumer",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "redelivery cria uma fatura"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "duas instâncias compartilham deduplicação"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "falha permite retry sem duplicação"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "chaves distintas geram efeitos distintos"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "mensagem já concluída retorna sucesso idempotente"
+    }
+  ],
+  "staticChecks": []
+}

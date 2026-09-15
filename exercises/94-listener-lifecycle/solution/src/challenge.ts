@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const events=input.split(",").filter(Boolean);let n=0;for(const e of events)n+=e==="mount"?1:e==="unmount"?-1:0;return n===0?"clean":n>0?`leak:${n}`:"invalid" }

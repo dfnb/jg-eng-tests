@@ -1,0 +1,1 @@
+export type Field={name:string,type:string,required?:boolean,min?:number,max?:number,options?:string[]};export function buildForm(schema:Field[],input:Record<string,unknown>){const values={};for(const f of schema)if(f.type==="text")values[f.name]=String(input[f.name]??"");return{values,errors:{},valid:true}}

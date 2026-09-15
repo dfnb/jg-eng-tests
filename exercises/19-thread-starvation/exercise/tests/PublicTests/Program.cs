@@ -1,0 +1,1 @@
+using Challenge;var r=await new Aggregator(new F()).FetchAllAsync(["a"]);if(r.Single()!="a")throw new Exception();Console.WriteLine("Public tests passed");class F:IRemote{public Task<string> FetchAsync(string id,CancellationToken ct)=>Task.FromResult(id);}

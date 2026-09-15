@@ -1,0 +1,36 @@
+{
+  "exercise": "104-audit-history-reconstruction",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "usa último evento anterior"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "ordena eventos recebidos fora de ordem"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "antes da criação é ausente"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "evento na borda vale"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "sem eventos é ausente"
+    }
+  ],
+  "staticChecks": []
+}

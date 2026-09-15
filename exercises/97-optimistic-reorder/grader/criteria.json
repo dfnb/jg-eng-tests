@@ -1,0 +1,36 @@
+{
+  "exercise": "97-optimistic-reorder",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "move antes de item"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "move ao fim"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "estado novo preserva item novo"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "ID ausente é inserido"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "alvo ausente vai ao início"
+    }
+  ],
+  "staticChecks": []
+}

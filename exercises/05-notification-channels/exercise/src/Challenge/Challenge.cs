@@ -1,0 +1,2 @@
+namespace Challenge;public interface IChannel{string Name{get;}void Send(string user,string message);}public record Delivery(string Channel,bool Success);
+public sealed class Notifier(IEnumerable<IChannel> channels){readonly List<IChannel> all=channels.ToList();public IReadOnlyList<Delivery> Send(string user,string message,IEnumerable<string> preferred){var r=new List<Delivery>();foreach(var name in preferred){if(name!="email")continue;var c=all.First(x=>x.Name=="email");c.Send(user,message);r.Add(new(name,true));}return r;}}

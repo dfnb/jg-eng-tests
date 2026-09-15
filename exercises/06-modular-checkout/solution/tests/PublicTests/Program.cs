@@ -1,0 +1,1 @@
+using Challenge;var x=new X();if(!new Checkout(x,x,x).Execute(new("o",10,1))||x.Confirmed!=1)throw new Exception();Console.WriteLine("Public tests passed");class X:IStock,IPayment,IOrders{public int Confirmed;public bool Reserve(string x)=>true;public void Release(string x){}public bool Charge(decimal v)=>true;public void Confirm(string x)=>Confirmed++;}

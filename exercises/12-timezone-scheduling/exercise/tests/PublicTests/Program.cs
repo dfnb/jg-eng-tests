@@ -1,0 +1,1 @@
+using Challenge;var z=TimeZoneInfo.Utc;var t=DateTimeOffset.Parse("2025-01-02T03:00:00Z");if(Scheduling.LocalDate(t,z)!=new DateOnly(2025,1,2))throw new Exception();Console.WriteLine("Public tests passed");

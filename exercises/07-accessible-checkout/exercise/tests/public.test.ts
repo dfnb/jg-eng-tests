@@ -1,0 +1,1 @@
+import test from"node:test";import assert from"node:assert/strict";import{validateCheckout}from"../src/challenge.ts";test("valid",()=>assert.deepEqual(validateCheckout({name:"A",address:"B",payment:"card"}),{}));

@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[current,update]=input.split("|");const map=new Map(current.split(",").filter(Boolean).map(x=>{const[id,value]=x.split(":");return[id,value]}));const[id,value]=update.split(":");if(id)map.set(id,value);return[...map].sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>`${k}:${v}`).join(",") }

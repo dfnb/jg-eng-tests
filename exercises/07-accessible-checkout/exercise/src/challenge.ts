@@ -1,0 +1,1 @@
+export type Checkout={name:string,address:string,payment:string};export function validateCheckout(x:Checkout){return {} as Record<string,string>}export function buildOrder(x:Checkout){return {customerName:x.name,address:x.address}}

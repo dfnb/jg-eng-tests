@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:18
+    environment: { POSTGRES_PASSWORD: devpass }
+  redis:
+    image: redis:8
+  api:
+    build: ./api
+    depends_on: [db, redis]
+    ports: ["8080:8080"]
+  worker:
+    build: ./worker

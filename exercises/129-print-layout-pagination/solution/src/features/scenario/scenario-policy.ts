@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[page0,sections]=input.split("|");const page=Number(page0);let used=0,pages=1;for(const s of sections.split(",").filter(Boolean).map(Number)){if(s>page)return"oversize";if(used+s>page){pages++;used=0}used+=s}return String(pages) }

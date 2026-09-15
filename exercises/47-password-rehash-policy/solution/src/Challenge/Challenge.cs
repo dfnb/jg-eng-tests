@@ -1,0 +1,13 @@
+using System.Globalization;
+    using System.Text;
+    using System.Text.RegularExpressions;
+
+    namespace Challenge;
+
+    public static class Policy
+    {
+        public static string Evaluate(string input)
+        {
+            var p=input.Split('|').Select(int.Parse).ToArray();return p[0]<p[1]?"rehash":"keep";
+        }
+    }

@@ -1,0 +1,1 @@
+import test from"node:test";import assert from"node:assert/strict";import{SearchController}from"../src/challenge.ts";test("one",async()=>{let x=[];await new SearchController(v=>x=v).search("a",async()=>["a"]);assert.deepEqual(x,["a"])});

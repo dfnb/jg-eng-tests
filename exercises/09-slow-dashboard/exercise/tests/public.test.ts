@@ -1,0 +1,1 @@
+import test from"node:test";import assert from"node:assert/strict";import{visibleRows}from"../src/challenge.ts";test("window",()=>assert.equal(visibleRows([{id:"1",name:"A",value:1}],"",0,1,x=>x).length,1));

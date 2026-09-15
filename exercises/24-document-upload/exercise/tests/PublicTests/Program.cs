@@ -1,0 +1,1 @@
+using Challenge;var root=Path.Combine(Path.GetTempPath(),Guid.NewGuid().ToString());var r=Uploads.Save(root,"a.pdf","application/pdf",new MemoryStream("%PDF-x"u8.ToArray()),100);if(!r.Accepted)throw new Exception();Console.WriteLine("Public tests passed");

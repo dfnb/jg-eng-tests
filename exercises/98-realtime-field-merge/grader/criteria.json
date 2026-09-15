@@ -1,0 +1,36 @@
+{
+  "exercise": "98-realtime-field-merge",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "só remoto muda"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "só local muda"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "mudanças iguais mesclam"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "mudanças diferentes conflitam"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "nenhuma mudança usa merged"
+    }
+  ],
+  "staticChecks": []
+}

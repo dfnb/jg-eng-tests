@@ -1,0 +1,1787 @@
+{
+  "schemaVersion": 1,
+  "exercises": [
+    {
+      "id": "01",
+      "slug": "loyalty-discount",
+      "title": "Desconto de fidelidade",
+      "track": "backend-data",
+      "kind": "feature",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "beginner",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "02",
+      "slug": "inventory-reservation",
+      "title": "Reserva de estoque",
+      "track": "backend-data",
+      "kind": "bugfix",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "03",
+      "slug": "sales-report",
+      "title": "Relatório de vendas",
+      "track": "backend-data",
+      "kind": "data",
+      "stack": [
+        "dotnet10",
+        "linq"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "04",
+      "slug": "catalog-import",
+      "title": "Importação de catálogo",
+      "track": "backend-data",
+      "kind": "data",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "beginner",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "05",
+      "slug": "notification-channels",
+      "title": "Canais de notificação",
+      "track": "backend-data",
+      "kind": "design-patterns",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "06",
+      "slug": "modular-checkout",
+      "title": "Checkout modular",
+      "track": "backend-data",
+      "kind": "refactoring",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "07",
+      "slug": "accessible-checkout",
+      "title": "Checkout acessível",
+      "track": "frontend",
+      "kind": "interface",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "beginner",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "08",
+      "slug": "out-of-order-search",
+      "title": "Busca fora de ordem",
+      "track": "frontend",
+      "kind": "bugfix",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "09",
+      "slug": "slow-dashboard",
+      "title": "Dashboard lento",
+      "track": "frontend",
+      "kind": "performance",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "10",
+      "slug": "schema-form",
+      "title": "Formulário por esquema",
+      "track": "frontend",
+      "kind": "feature",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "11",
+      "slug": "optimistic-editing",
+      "title": "Edição otimista",
+      "track": "frontend",
+      "kind": "integration",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "12",
+      "slug": "timezone-scheduling",
+      "title": "Agendamento e fuso horário",
+      "track": "bugs-quality",
+      "kind": "bugfix",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "beginner",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "13",
+      "slug": "monetary-totals",
+      "title": "Totais monetários",
+      "track": "bugs-quality",
+      "kind": "bugfix",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "beginner",
+      "minutes": 75,
+      "status": "ready"
+    },
+    {
+      "id": "14",
+      "slug": "legacy-pricing-engine",
+      "title": "Motor de preços legado",
+      "track": "bugs-quality",
+      "kind": "refactoring",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "15",
+      "slug": "unstable-test-suite",
+      "title": "Suíte de testes instável",
+      "track": "bugs-quality",
+      "kind": "quality",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "16",
+      "slug": "pagination-contract",
+      "title": "Contrato de paginação",
+      "track": "bugs-quality",
+      "kind": "regression",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "17",
+      "slug": "catalog-n-plus-one",
+      "title": "Catálogo N+1",
+      "track": "performance-concurrency",
+      "kind": "performance",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "18",
+      "slug": "streaming-export",
+      "title": "Exportação sem memória",
+      "track": "performance-concurrency",
+      "kind": "performance",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "19",
+      "slug": "thread-starvation",
+      "title": "API com starvation",
+      "track": "performance-concurrency",
+      "kind": "async",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "20",
+      "slug": "concurrent-coupons",
+      "title": "Cupons concorrentes",
+      "track": "performance-concurrency",
+      "kind": "concurrency",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "21",
+      "slug": "idempotent-consumer",
+      "title": "Consumidor idempotente",
+      "track": "performance-concurrency",
+      "kind": "distributed-concurrency",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready"
+    },
+    {
+      "id": "22",
+      "slug": "cross-tenant-orders",
+      "title": "Pedidos de outro cliente",
+      "track": "security-integration",
+      "kind": "security",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "23",
+      "slug": "unsafe-search",
+      "title": "Busca vulnerável",
+      "track": "security-integration",
+      "kind": "security",
+      "stack": [
+        "dotnet10",
+        "sql"
+      ],
+      "level": "beginner",
+      "minutes": 75,
+      "status": "ready"
+    },
+    {
+      "id": "24",
+      "slug": "document-upload",
+      "title": "Upload de documentos",
+      "track": "security-integration",
+      "kind": "security",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "25",
+      "slug": "webhook-receiver",
+      "title": "Recebimento de webhooks",
+      "track": "security-integration",
+      "kind": "integration",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "26",
+      "slug": "resilient-payment",
+      "title": "Pagamento resiliente",
+      "track": "security-integration",
+      "kind": "integration",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 150,
+      "status": "ready"
+    },
+    {
+      "id": "27",
+      "slug": "url-shortener",
+      "title": "Serviço de encurtamento",
+      "track": "devex-infra",
+      "kind": "greenfield",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 240,
+      "status": "ready"
+    },
+    {
+      "id": "28",
+      "slug": "development-scripts",
+      "title": "Scripts de desenvolvimento",
+      "track": "devex-infra",
+      "kind": "automation",
+      "stack": [
+        "bash",
+        "powershell",
+        "dotnet10"
+      ],
+      "level": "beginner",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "29",
+      "slug": "reproducible-local-env",
+      "title": "Ambiente local reproduzível",
+      "track": "devex-infra",
+      "kind": "infrastructure",
+      "stack": [
+        "docker-compose",
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "30",
+      "slug": "integration-pipeline",
+      "title": "Pipeline de integração",
+      "track": "devex-infra",
+      "kind": "ci",
+      "stack": [
+        "dotnet10",
+        "typescript",
+        "yaml"
+      ],
+      "level": "intermediate",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "31",
+      "slug": "api-version-compatibility",
+      "title": "Compatibilidade de versões da API",
+      "track": "api-contracts",
+      "kind": "contratos HTTP",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "32",
+      "slug": "patch-null-semantics",
+      "title": "Semântica de PATCH",
+      "track": "api-contracts",
+      "kind": "model binding",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "33",
+      "slug": "problem-details",
+      "title": "Erros com Problem Details",
+      "track": "api-contracts",
+      "kind": "contratos de erro",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "34",
+      "slug": "etag-preconditions",
+      "title": "Atualização com ETag",
+      "track": "api-contracts",
+      "kind": "concorrência otimista",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "35",
+      "slug": "idempotent-post",
+      "title": "POST idempotente",
+      "track": "api-contracts",
+      "kind": "idempotência HTTP",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "36",
+      "slug": "batch-partial-results",
+      "title": "Resultado parcial em lote",
+      "track": "api-contracts",
+      "kind": "APIs em lote",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "37",
+      "slug": "http-byte-ranges",
+      "title": "Download com Range",
+      "track": "api-contracts",
+      "kind": "streaming HTTP",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "38",
+      "slug": "content-negotiation",
+      "title": "Negociação de conteúdo",
+      "track": "api-contracts",
+      "kind": "HTTP",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "39",
+      "slug": "localized-errors",
+      "title": "Mensagens localizadas",
+      "track": "api-contracts",
+      "kind": "localização",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "40",
+      "slug": "sliding-window-limit",
+      "title": "Rate limit por janela",
+      "track": "api-contracts",
+      "kind": "rate limiting",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "41",
+      "slug": "role-and-scope",
+      "title": "Papel e escopo",
+      "track": "backend-security",
+      "kind": "autorização",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "42",
+      "slug": "jwt-clock-skew",
+      "title": "Expiração de token",
+      "track": "backend-security",
+      "kind": "autenticação",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "43",
+      "slug": "structured-log-redaction",
+      "title": "Redação de logs",
+      "track": "backend-security",
+      "kind": "observabilidade",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "44",
+      "slug": "ssrf-url-policy",
+      "title": "Proteção contra SSRF",
+      "track": "backend-security",
+      "kind": "segurança de rede",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "45",
+      "slug": "safe-return-url",
+      "title": "Return URL seguro",
+      "track": "backend-security",
+      "kind": "segurança web",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "46",
+      "slug": "mass-assignment",
+      "title": "Proteção contra mass assignment",
+      "track": "backend-security",
+      "kind": "model binding",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "47",
+      "slug": "password-rehash-policy",
+      "title": "Atualização de hash de senha",
+      "track": "backend-security",
+      "kind": "segurança de credenciais",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "48",
+      "slug": "unicode-identity",
+      "title": "Identidade Unicode",
+      "track": "backend-security",
+      "kind": "normalização",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "49",
+      "slug": "keyset-pagination",
+      "title": "Paginação keyset",
+      "track": "data-cache",
+      "kind": "queries",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "50",
+      "slug": "search-tokenization",
+      "title": "Tokenização de busca",
+      "track": "data-cache",
+      "kind": "queries",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "51",
+      "slug": "transactional-outbox",
+      "title": "Plano de outbox",
+      "track": "data-cache",
+      "kind": "integração de dados",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "52",
+      "slug": "expand-contract-migration",
+      "title": "Migration expand-contract",
+      "track": "data-cache",
+      "kind": "evolução de schema",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "53",
+      "slug": "event-upcasting",
+      "title": "Upcasting de eventos",
+      "track": "data-cache",
+      "kind": "compatibilidade de schema",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "54",
+      "slug": "cache-ttl-jitter",
+      "title": "Jitter de cache",
+      "track": "data-cache",
+      "kind": "cache",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "55",
+      "slug": "tagged-cache-invalidation",
+      "title": "Invalidação por tags",
+      "track": "data-cache",
+      "kind": "cache",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "56",
+      "slug": "lease-fencing-token",
+      "title": "Fencing token de lease",
+      "track": "resilience-distributed",
+      "kind": "concorrência distribuída",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "57",
+      "slug": "retry-after-policy",
+      "title": "Retry-After",
+      "track": "resilience-distributed",
+      "kind": "resiliência HTTP",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "58",
+      "slug": "circuit-half-open",
+      "title": "Circuit breaker half-open",
+      "track": "resilience-distributed",
+      "kind": "resiliência",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "59",
+      "slug": "bulkhead-admission",
+      "title": "Isolamento por bulkhead",
+      "track": "resilience-distributed",
+      "kind": "resiliência",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "60",
+      "slug": "saga-compensation",
+      "title": "Compensação de saga",
+      "track": "resilience-distributed",
+      "kind": "arquitetura distribuída",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "61",
+      "slug": "ordered-events",
+      "title": "Ordenação de eventos",
+      "track": "resilience-distributed",
+      "kind": "mensageria",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "62",
+      "slug": "read-your-writes",
+      "title": "Read-your-writes",
+      "track": "resilience-distributed",
+      "kind": "consistência eventual",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "63",
+      "slug": "cooperative-cancellation",
+      "title": "Cancelamento cooperativo",
+      "track": "resilience-distributed",
+      "kind": "performance CPU",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "64",
+      "slug": "bounded-channel",
+      "title": "Canal com capacidade",
+      "track": "resilience-distributed",
+      "kind": "producer-consumer",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "65",
+      "slug": "resource-disposal",
+      "title": "Liberação de recursos",
+      "track": "resilience-distributed",
+      "kind": "gestão de recursos",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 120,
+      "status": "ready"
+    },
+    {
+      "id": "66",
+      "slug": "dirty-form-guard",
+      "title": "Navegação com formulário sujo",
+      "track": "frontend-advanced",
+      "kind": "roteamento",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "67",
+      "slug": "url-query-state",
+      "title": "Estado sincronizado com URL",
+      "track": "frontend-advanced",
+      "kind": "roteamento",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "68",
+      "slug": "error-boundary-policy",
+      "title": "Fallback de erro",
+      "track": "frontend-advanced",
+      "kind": "resiliência de UI",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "69",
+      "slug": "loading-state-machine",
+      "title": "Estados de carregamento",
+      "track": "frontend-advanced",
+      "kind": "estado de UI",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "70",
+      "slug": "plural-rules",
+      "title": "Pluralização de mensagens",
+      "track": "frontend-advanced",
+      "kind": "i18n",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "71",
+      "slug": "zoned-date-display",
+      "title": "Data no fuso do usuário",
+      "track": "frontend-advanced",
+      "kind": "datas",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "72",
+      "slug": "modal-focus-cycle",
+      "title": "Foco em modal",
+      "track": "frontend-advanced",
+      "kind": "acessibilidade",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "73",
+      "slug": "accessible-combobox",
+      "title": "Combobox acessível",
+      "track": "frontend-advanced",
+      "kind": "acessibilidade",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "74",
+      "slug": "keyboard-reorder",
+      "title": "Reordenação por teclado",
+      "track": "frontend-advanced",
+      "kind": "acessibilidade",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "75",
+      "slug": "responsive-columns",
+      "title": "Tabela responsiva",
+      "track": "frontend-advanced",
+      "kind": "responsividade",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "76",
+      "slug": "dynamic-virtual-range",
+      "title": "Virtualização com alturas",
+      "track": "frontend-advanced",
+      "kind": "performance",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "77",
+      "slug": "memo-dependency-key",
+      "title": "Dependências de memoização",
+      "track": "frontend-advanced",
+      "kind": "performance",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "78",
+      "slug": "stale-closure-counter",
+      "title": "Closure obsoleta",
+      "track": "frontend-advanced",
+      "kind": "estado assíncrono",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "79",
+      "slug": "immutable-nested-update",
+      "title": "Atualização imutável",
+      "track": "frontend-advanced",
+      "kind": "estado",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "80",
+      "slug": "reducer-transitions",
+      "title": "Reducer de fluxo",
+      "track": "frontend-advanced",
+      "kind": "arquitetura frontend",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "81",
+      "slug": "async-field-validation",
+      "title": "Validação assíncrona de campo",
+      "track": "frontend-advanced",
+      "kind": "forms",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "82",
+      "slug": "upload-progress",
+      "title": "Progresso de upload",
+      "track": "frontend-advanced",
+      "kind": "integração",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "83",
+      "slug": "infinite-scroll-dedup",
+      "title": "Scroll infinito sem duplicatas",
+      "track": "frontend-advanced",
+      "kind": "paginação",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "84",
+      "slug": "websocket-backoff",
+      "title": "Reconexão WebSocket",
+      "track": "frontend-advanced",
+      "kind": "tempo real",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "85",
+      "slug": "offline-command-queue",
+      "title": "Fila offline",
+      "track": "frontend-advanced",
+      "kind": "offline-first",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "86",
+      "slug": "service-worker-versioning",
+      "title": "Versão de cache offline",
+      "track": "frontend-advanced",
+      "kind": "service worker",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "87",
+      "slug": "safe-rich-text",
+      "title": "Texto rico seguro",
+      "track": "frontend-advanced",
+      "kind": "segurança XSS",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "88",
+      "slug": "frontend-url-policy",
+      "title": "Sanitização de links",
+      "track": "frontend-advanced",
+      "kind": "segurança",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "89",
+      "slug": "csrf-request-policy",
+      "title": "Envio de CSRF",
+      "track": "frontend-advanced",
+      "kind": "segurança",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "90",
+      "slug": "csp-nonce-propagation",
+      "title": "Nonce de CSP",
+      "track": "frontend-advanced",
+      "kind": "segurança",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "91",
+      "slug": "tree-shakable-imports",
+      "title": "Imports tree-shakable",
+      "track": "frontend-advanced",
+      "kind": "bundle size",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "92",
+      "slug": "lazy-route-policy",
+      "title": "Rotas lazy",
+      "track": "frontend-advanced",
+      "kind": "bundle size",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "93",
+      "slug": "responsive-image-choice",
+      "title": "Imagem responsiva",
+      "track": "frontend-advanced",
+      "kind": "performance web",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "94",
+      "slug": "listener-lifecycle",
+      "title": "Ciclo de listeners",
+      "track": "frontend-advanced",
+      "kind": "memory leaks",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "95",
+      "slug": "observer-cleanup",
+      "title": "Limpeza de observers",
+      "track": "frontend-advanced",
+      "kind": "memory leaks",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "96",
+      "slug": "worker-partition",
+      "title": "Particionamento para Web Worker",
+      "track": "frontend-advanced",
+      "kind": "performance CPU",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "97",
+      "slug": "optimistic-reorder",
+      "title": "Reordenação otimista",
+      "track": "frontend-advanced",
+      "kind": "estado otimista",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "98",
+      "slug": "realtime-field-merge",
+      "title": "Merge em tempo real",
+      "track": "frontend-advanced",
+      "kind": "colaboração",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "99",
+      "slug": "theme-token-fallback",
+      "title": "Tokens de tema",
+      "track": "frontend-advanced",
+      "kind": "design system",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "100",
+      "slug": "deterministic-ui-test",
+      "title": "Teste de UI determinístico",
+      "track": "frontend-advanced",
+      "kind": "qualidade de testes",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "intermediate",
+      "minutes": 90,
+      "status": "ready"
+    },
+    {
+      "id": "101",
+      "slug": "purchase-approval-workflow",
+      "title": "Fluxo de aprovação de compras",
+      "track": "production-backend",
+      "kind": "workflow de domínio",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "102",
+      "slug": "refund-ledger-invariants",
+      "title": "Estorno no razão contábil",
+      "track": "production-backend",
+      "kind": "invariantes contábeis",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "103",
+      "slug": "regional-config-precedence",
+      "title": "Precedência de configuração regional",
+      "track": "production-backend",
+      "kind": "configuração",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "104",
+      "slug": "audit-history-reconstruction",
+      "title": "Reconstrução de histórico de auditoria",
+      "track": "production-backend",
+      "kind": "dados temporais",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "105",
+      "slug": "shipment-allocation",
+      "title": "Alocação de remessas",
+      "track": "production-backend",
+      "kind": "algoritmos de domínio",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "106",
+      "slug": "notification-digest",
+      "title": "Agrupamento de notificações",
+      "track": "production-backend",
+      "kind": "processamento em lote",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "107",
+      "slug": "legal-hold-retention",
+      "title": "Retenção com bloqueio legal",
+      "track": "production-backend",
+      "kind": "compliance",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "108",
+      "slug": "dual-key-secret-rotation",
+      "title": "Rotação de segredo sem indisponibilidade",
+      "track": "production-backend",
+      "kind": "gestão de segredos",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "109",
+      "slug": "readiness-dependencies",
+      "title": "Readiness de dependências",
+      "track": "production-backend",
+      "kind": "observabilidade",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "110",
+      "slug": "percentage-feature-rollout",
+      "title": "Rollout percentual de feature",
+      "track": "production-backend",
+      "kind": "entrega progressiva",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "111",
+      "slug": "background-job-drain",
+      "title": "Encerramento gracioso de workers",
+      "track": "production-backend",
+      "kind": "lifecycle",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "112",
+      "slug": "ordered-parallel-fanout",
+      "title": "Fan-out paralelo ordenado",
+      "track": "production-backend",
+      "kind": "concorrência",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "113",
+      "slug": "api-sunset-policy",
+      "title": "Descontinuação de API",
+      "track": "production-backend",
+      "kind": "governança de API",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "114",
+      "slug": "trace-baggage-allowlist",
+      "title": "Privacidade em baggage de tracing",
+      "track": "production-backend",
+      "kind": "telemetria",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "115",
+      "slug": "deadlock-retry-classifier",
+      "title": "Classificação de retry de banco",
+      "track": "production-backend",
+      "kind": "persistência resiliente",
+      "stack": [
+        "dotnet10"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "116",
+      "slug": "permission-aware-navigation",
+      "title": "Navegação orientada por permissões",
+      "track": "production-frontend",
+      "kind": "autorização de interface",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "117",
+      "slug": "undo-redo-history",
+      "title": "Histórico de undo e redo",
+      "track": "production-frontend",
+      "kind": "estado reversível",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "118",
+      "slug": "autosave-draft-versioning",
+      "title": "Autosave versionado",
+      "track": "production-frontend",
+      "kind": "persistência de rascunho",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "119",
+      "slug": "wizard-restoration",
+      "title": "Restauração de wizard",
+      "track": "production-frontend",
+      "kind": "formulários multietapa",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "120",
+      "slug": "accessible-chart-summary",
+      "title": "Resumo acessível de gráfico",
+      "track": "production-frontend",
+      "kind": "visualização acessível",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "121",
+      "slug": "reduced-motion-policy",
+      "title": "Preferência por movimento reduzido",
+      "track": "production-frontend",
+      "kind": "acessibilidade visual",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "122",
+      "slug": "localized-decimal-input",
+      "title": "Entrada decimal localizada",
+      "track": "production-frontend",
+      "kind": "internacionalização",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "123",
+      "slug": "stable-form-array-identity",
+      "title": "Identidade estável em formulários",
+      "track": "production-frontend",
+      "kind": "formulários dinâmicos",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "124",
+      "slug": "normalized-entity-cache",
+      "title": "Cache normalizado de entidades",
+      "track": "production-frontend",
+      "kind": "gerenciamento de estado",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "125",
+      "slug": "ssr-feature-hydration",
+      "title": "Paridade de feature flags no SSR",
+      "track": "production-frontend",
+      "kind": "renderização híbrida",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "126",
+      "slug": "streaming-chunk-order",
+      "title": "Ordenação de chunks em streaming",
+      "track": "production-frontend",
+      "kind": "renderização incremental",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "127",
+      "slug": "storage-quota-eviction",
+      "title": "Evicção por quota do navegador",
+      "track": "production-frontend",
+      "kind": "armazenamento local",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "128",
+      "slug": "clipboard-fallback",
+      "title": "Fallback de área de transferência",
+      "track": "production-frontend",
+      "kind": "integração com navegador",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "129",
+      "slug": "print-layout-pagination",
+      "title": "Paginação para impressão",
+      "track": "production-frontend",
+      "kind": "mídia impressa",
+      "stack": [
+        "angular",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    },
+    {
+      "id": "130",
+      "slug": "microfrontend-event-contract",
+      "title": "Contrato de eventos entre microfrontends",
+      "track": "production-frontend",
+      "kind": "arquitetura frontend",
+      "stack": [
+        "react",
+        "typescript"
+      ],
+      "level": "advanced",
+      "minutes": 180,
+      "status": "ready",
+      "codebaseProfile": "small-production"
+    }
+  ]
+}

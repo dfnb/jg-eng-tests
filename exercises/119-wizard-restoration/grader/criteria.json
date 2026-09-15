@@ -1,0 +1,36 @@
+{
+  "exercise": "119-wizard-restoration",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "restaura etapa válida"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "não pula primeira inválida"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "limita na inválida"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "todas válidas permitem fim"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "índice negativo vira zero"
+    }
+  ],
+  "staticChecks": []
+}

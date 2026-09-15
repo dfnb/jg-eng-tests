@@ -1,0 +1,1 @@
+import{Component}from"@angular/core";@Component({selector:"app-dashboard",template:`<div *ngFor="let row of rows;trackBy:trackById" tabindex="0">{{row.name}}</div>`})export class Dashboard{rows:any[]=[];trackById=(_:number,row:any)=>row.id}

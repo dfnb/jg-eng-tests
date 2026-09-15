@@ -1,0 +1,1 @@
+body{font-family:system-ui;margin:0}.checkout{display:grid;grid-template-columns:2fr 1fr}@media(max-width:640px){.checkout{grid-template-columns:1fr}}

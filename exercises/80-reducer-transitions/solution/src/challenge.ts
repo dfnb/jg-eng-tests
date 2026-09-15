@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[state,event]=input.split("|");const map={"editing|submit":"submitting","submitting|success":"done","submitting|failure":"editing","done|reset":"editing"};return map[`${state}|${event}`]??state }

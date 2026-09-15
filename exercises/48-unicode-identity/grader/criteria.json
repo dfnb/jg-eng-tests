@@ -1,0 +1,36 @@
+{
+  "exercise": "48-unicode-identity",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "caixa é ignorada"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "full-width normaliza"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "acentos são preservados"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "compatibilidade normaliza"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "espaço não é removido implicitamente"
+    }
+  ],
+  "staticChecks": []
+}

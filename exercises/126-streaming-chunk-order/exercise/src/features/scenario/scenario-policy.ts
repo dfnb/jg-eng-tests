@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[expected0,chunks]=input.split("|");const rows=chunks.split(",").filter(Boolean).map(x=>x.split(":"));if(!rows.length)return`${expected0}|wait`;return`${Number(rows.at(-1)[0])+1}|${rows.map(x=>x[1]).join("")}` }

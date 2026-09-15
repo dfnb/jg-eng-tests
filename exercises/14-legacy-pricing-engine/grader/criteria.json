@@ -1,0 +1,36 @@
+{
+  "exercise": "14-legacy-pricing-engine",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "regras recebidas são executadas"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "ordem de aplicação é preservada"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "total nunca fica negativo"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "nova regra não requer mudança no motor"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "lista vazia preserva subtotal"
+    }
+  ],
+  "staticChecks": []
+}

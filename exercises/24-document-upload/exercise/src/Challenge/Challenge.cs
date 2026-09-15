@@ -1,0 +1,1 @@
+namespace Challenge;public record UploadResult(bool Accepted,string? Path,string? Error);public static class Uploads{public static UploadResult Save(string root,string fileName,string contentType,Stream input,int maxBytes){Directory.CreateDirectory(root);var path=System.IO.Path.Combine(root,fileName);using var f=File.Create(path);input.CopyTo(f);return new(true,path,null);}}

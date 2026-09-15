@@ -1,0 +1,1 @@
+using Challenge;var f=new F();if(await new PaymentClient(f).PayAsync("k")!=PaymentStatus.Success)throw new Exception();Console.WriteLine("Public tests passed");class F:IPaymentProvider{public Task<PaymentStatus> SendAsync(string k,CancellationToken c)=>Task.FromResult(PaymentStatus.Success);}

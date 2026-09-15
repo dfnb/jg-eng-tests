@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[ids,command]=input.split("|");const rows=ids.split(",").filter(Boolean);const[action,id]=command.split(":");if(action==="remove")return rows.filter(x=>x!==id).join(",");if(action==="add"&&!rows.includes(id))rows.push(id);return rows.join(",") }

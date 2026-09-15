@@ -1,0 +1,1 @@
+import{Component}from"@angular/core";import{ReactiveFormsModule}from"@angular/forms";@Component({selector:"app-schema-form",imports:[ReactiveFormsModule],template:"<form aria-label="Dynamic form"></form>"})export class SchemaForm{}

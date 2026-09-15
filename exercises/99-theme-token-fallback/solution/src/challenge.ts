@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[theme,token]=input.split("|");const base={bg:"white",text:"black",accent:"blue"},dark={bg:"black",text:"white"};return String((theme==="dark"?dark[token]:undefined)??base[token]??"unset") }

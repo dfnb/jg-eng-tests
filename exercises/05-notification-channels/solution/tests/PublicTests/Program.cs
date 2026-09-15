@@ -1,0 +1,1 @@
+using Challenge;var c=new Fake("email");new Notifier([c]).Send("u","m",["email"]);if(c.Count!=1)throw new Exception();Console.WriteLine("Public tests passed");class Fake(string n):IChannel{public string Name=>n;public int Count;public void Send(string u,string m)=>Count++;}

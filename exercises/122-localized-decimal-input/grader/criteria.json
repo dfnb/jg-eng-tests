@@ -1,0 +1,36 @@
+{
+  "exercise": "122-localized-decimal-input",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "pt-BR converte vírgula"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "en-US converte agrupamento"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "inteiro recebe centavos"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "texto inválido"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "espaços são aceitos"
+    }
+  ],
+  "staticChecks": []
+}

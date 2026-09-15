@@ -1,0 +1,3 @@
+using System.Globalization;namespace Challenge;
+public record CatalogItem(string Sku,string Name,decimal Price);public record ImportError(int Line,string Code);public record ImportResult(IReadOnlyList<CatalogItem> Items,IReadOnlyList<ImportError> Errors);
+public static class CatalogImporter { public static ImportResult Parse(string csv){var items=new List<CatalogItem>();var errors=new List<ImportError>();foreach(var pair in csv.Replace("\r","").Split('\n').Skip(1).Select((x,i)=>(x,i:i+2))){if(string.IsNullOrWhiteSpace(pair.x))continue;var p=pair.x.Split(',');if(p.Length!=3||!decimal.TryParse(p[2],out var price))errors.Add(new(pair.i,"invalid"));else items.Add(new(p[0],p[1],price));}return new(items,errors);} }

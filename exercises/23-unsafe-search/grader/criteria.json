@@ -1,0 +1,36 @@
+{
+  "exercise": "23-unsafe-search",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "filtro usa parâmetro"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "coluna possui allowlist"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "direção possui allowlist"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "entrada inválida não inclui detalhe SQL"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "busca legítima preserva contrato"
+    }
+  ],
+  "staticChecks": []
+}

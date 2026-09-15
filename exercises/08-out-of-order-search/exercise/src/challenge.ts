@@ -1,0 +1,1 @@
+export class SearchController{publish:(x:string[])=>void;constructor(publish:(x:string[])=>void){this.publish=publish}async search(term:string,fetcher:(x:string)=>Promise<string[]>){this.publish(await fetcher(term))}dispose(){}}

@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[total0,workers0]=input.split("|");const total=Number(total0),workers=Math.max(1,Number(workers0)),base=Math.floor(total/workers),extra=total%workers;return Array.from({length:workers},(_,i)=>base+(i<extra?1:0)).filter(Boolean).join(",") }

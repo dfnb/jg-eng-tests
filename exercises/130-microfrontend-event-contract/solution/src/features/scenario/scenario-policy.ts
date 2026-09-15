@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[topic,version,payload]=input.split("|");if(!topic.startsWith("commerce."))return"foreign";if(version!=="v2")return"unsupported";const fields=new Set(payload.split(",").filter(Boolean));return fields.has("id")&&fields.has("timestamp")?"accept":"invalid" }

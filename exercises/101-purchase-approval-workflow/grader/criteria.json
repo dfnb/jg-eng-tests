@@ -1,0 +1,36 @@
+{
+  "exercise": "101-purchase-approval-workflow",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "compra pequena é aprovada"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "valor médio exige gerente"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "alto valor exige diretor"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "sem orçamento rejeita"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "autor não aprova a própria compra"
+    }
+  ],
+  "staticChecks": []
+}

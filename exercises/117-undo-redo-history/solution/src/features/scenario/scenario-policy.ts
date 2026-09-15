@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const cmds=input.split(",").filter(Boolean);let value="",undo=[],redo=[];for(const c of cmds){if(c==="undo"&&undo.length){redo.push(value);value=undo.pop()}else if(c==="redo"&&redo.length){undo.push(value);value=redo.pop()}else if(c.startsWith("set:")){undo.push(value);value=c.slice(4);redo=[]}}return value||"empty" }

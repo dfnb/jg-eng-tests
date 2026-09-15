@@ -1,0 +1,1 @@
+namespace Challenge;public record Line(decimal UnitPrice,decimal Quantity,decimal Discount);public static class Invoice{static decimal Money(decimal x)=>Math.Round(x,2,MidpointRounding.AwayFromZero);public static decimal Total(IEnumerable<Line> lines,decimal tax){var net=lines.Sum(x=>Money(x.UnitPrice*x.Quantity*(1-x.Discount)));return Money(net+Money(net*tax));}}

@@ -1,0 +1,1 @@
+using Challenge;var now=DateTimeOffset.UtcNow;var r=Reports.Sales([new("p",10,1,now,"Completed")],now.AddMinutes(-1),now.AddMinutes(1),0,10);if(r.Single().Revenue!=10)throw new Exception();Console.WriteLine("Public tests passed");

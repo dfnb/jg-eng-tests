@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[expected0,chunks]=input.split("|");let expected=Number(expected0),out=[];const map=new Map(chunks.split(",").filter(Boolean).map(x=>{const[i,v]=x.split(":");return[Number(i),v]}));while(map.has(expected)){out.push(map.get(expected));expected++}return out.length?`${expected}|${out.join("")}`:`${expected}|wait` }

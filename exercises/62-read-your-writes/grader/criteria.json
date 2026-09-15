@@ -1,0 +1,36 @@
+{
+  "exercise": "62-read-your-writes",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "réplica atual serve"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "réplica à frente serve"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "réplica atrasada usa primário"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "sem escrita lê réplica"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "token grande não trunca"
+    }
+  ],
+  "staticChecks": []
+}

@@ -1,0 +1,2 @@
+namespace Challenge;public interface IStock{bool Reserve(string id);void Release(string id);}public interface IPayment{bool Charge(decimal value);}public interface IOrders{void Confirm(string id);}public record Cart(string Id,decimal Total,int Items);
+public sealed class Checkout(IStock stock,IPayment payment,IOrders orders){public bool Execute(Cart cart){if(cart.Items<=0||cart.Total<0)return false;if(!stock.Reserve(cart.Id))return false;if(!payment.Charge(cart.Total)){stock.Release(cart.Id);return false;}orders.Confirm(cart.Id);return true;}}

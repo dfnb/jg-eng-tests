@@ -1,0 +1,1 @@
+namespace Challenge;public interface IClock{DateTimeOffset UtcNow{get;}}public interface INonceSource{string Next();}public record Token(string User,DateTimeOffset ExpiresAt,string Nonce);public sealed class TokenService(IClock clock,INonceSource nonce){public Token Create(string user,TimeSpan ttl)=>new(user,clock.UtcNow+ttl,nonce.Next());}

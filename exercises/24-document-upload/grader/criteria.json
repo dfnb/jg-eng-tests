@@ -1,0 +1,36 @@
+{
+  "exercise": "24-document-upload",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "traversal não escapa do root"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "limite é aplicado durante leitura"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "conteúdo incompatível é rejeitado"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "nomes armazenados não colidem"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "rejeição não deixa arquivo parcial"
+    }
+  ],
+  "staticChecks": []
+}

@@ -1,0 +1,41 @@
+{
+  "exercise": "11-optimistic-editing",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "valor é publicado antes da resposta"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "falha simples reverte"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "rollback antigo não apaga edição nova"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "conflito retorna estado próprio"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "componente anuncia o resultado"
+    }
+  ],
+  "staticChecks": [
+    {
+      "id": "C05",
+      "require": "aria-live"
+    }
+  ]
+}

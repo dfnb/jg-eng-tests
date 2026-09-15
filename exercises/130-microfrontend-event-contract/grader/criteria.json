@@ -1,0 +1,36 @@
+{
+  "exercise": "130-microfrontend-event-contract",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "evento válido entra"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 2,
+      "description": "namespace externo ignora"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "versão antiga rejeita"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 2,
+      "description": "ID obrigatório"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "timestamp obrigatório"
+    }
+  ],
+  "staticChecks": []
+}

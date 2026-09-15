@@ -1,0 +1,36 @@
+{
+  "exercise": "01-loyalty-discount",
+  "criteria": [
+    {
+      "id": "C01",
+      "level": "minimum",
+      "weight": 3,
+      "description": "Gold recebe 10%"
+    },
+    {
+      "id": "C02",
+      "level": "minimum",
+      "weight": 3,
+      "description": "Silver recebe 5%"
+    },
+    {
+      "id": "C03",
+      "level": "minimum",
+      "weight": 2,
+      "description": "desconto precede imposto"
+    },
+    {
+      "id": "C04",
+      "level": "intermediate",
+      "weight": 1,
+      "description": "nível desconhecido não desconta"
+    },
+    {
+      "id": "C05",
+      "level": "desired",
+      "weight": 1,
+      "description": "arredondamento de meio centavo segue a política"
+    }
+  ],
+  "staticChecks": []
+}

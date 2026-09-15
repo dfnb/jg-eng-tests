@@ -1,0 +1,10 @@
+.artifacts/
+.grader-tmp/
+**/bin/
+**/obj/
+**/node_modules/
+**/.coverage/
+*.user
+*.swp
+.DS_Store
+

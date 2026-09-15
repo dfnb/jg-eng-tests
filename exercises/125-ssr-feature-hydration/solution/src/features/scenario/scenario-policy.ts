@@ -1,0 +1,1 @@
+export function evaluateScenario(input: string): string { const[server,client]=input.split("|");const norm=x=>x.split(",").filter(Boolean).sort().join(",");return norm(server)===norm(client)?"hydrate":"rerender" }

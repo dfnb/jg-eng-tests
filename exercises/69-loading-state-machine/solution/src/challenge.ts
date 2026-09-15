@@ -1,0 +1,1 @@
+export function evaluate(input: string): string { const[pending,ms,count,error]=input.split("|");if(error==="yes")return"error";if(pending==="yes")return Number(ms)>=200?"loading":"idle";return Number(count)?"success":"empty" }
